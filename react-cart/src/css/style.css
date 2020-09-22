@@ -60,21 +60,21 @@ button {
     width: 50%;
 }
 
-.textCenter {
+.text-center {
     text-align: center;
 }
 
 
 /* specific CSS */
 
-.appHolder {
+#app-holder {
     display: flex;
     justify-content: center;
     height: 100vh;
     flex-direction: column;
 }
 
-.menuCart {
+#menu-cart {
     background-color: var(--secondary-bg);
     height: 500px;
     display: flex;
@@ -82,46 +82,46 @@ button {
     border-radius: var(--s0);
 }
 
-.menuCart h2 {
+#menu-cart h2 {
     font-size: var(--s3);
     text-transform: lowercase;
     margin-bottom: var(--s1);
 }
 
-.menu {
+#menu {
     padding-left: var(--s1);
     padding-right: var(--s1);
     border-right: 2px solid black;
     width: 70%;
 }
 
-.menuItem {
+.menu-item {
     background-color: #dcdcdc;
     padding: var(--s-1) var(--s1);
     border-radius: var(--s-5);
     display: flex;
 }
 
-.menuText {
+.menu-text {
     padding: var(--s-2) 0;
 }
 
-.menuAction {
+.menu-action {
     margin-left: auto;
 }
 
-.menuAction button {
+.menu-action button {
     padding: var(--s-2) var(--s-1);
     background-color: var(--yellow);
     border-radius: var(--s-3);
     border: var(--yellow);
 }
 
-.menuArea>.menuItem+.menuItem {
+#menu-area>.menu-item+.menu-item {
     margin-top: var(--s-1);
 }
 
-.cart {
+#cart {
     padding-left: var(--s1);
     padding-right: var(--s1);
     border-left: 2px solid black;
@@ -130,19 +130,19 @@ button {
     flex-direction: column;
 }
 
-.cartArea {
+#cart-area {
     flex: 1 0 200px;
     font-size: var(--s1);
     display: flex;
     flex-direction: column;
 }
 
-.cartItem {
+.cart-item {
     display: flex;
     position: relative;
 }
 
-.cartItem .removeButton {
+.cart-item .remove-button {
     position: absolute;
     right: calc(var(--s2) * -1);
     background-color: #efa2a2;
@@ -152,17 +152,17 @@ button {
     transform: translateY(-50%);
 }
 
-.itemTotal {
+.item-total {
     margin-left: auto;
 }
 
-.cartTotal {
+#cart-total {
     font-size: var(--s2);
     border-top: 3px solid black;
     padding: var(--s1) 0 var(--s1) var(--s1);
     margin-top: auto !important;
 }
 
-.cartArea>.cartItem {
+#cart-area>.cart-item {
     margin-top: var(--s-2);
 }
